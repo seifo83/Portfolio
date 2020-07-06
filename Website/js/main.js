@@ -177,17 +177,17 @@ let projet = [
       nom : "Webannonce",
       info: "Partager votre annonce en ligne.",
       img : "photoprojet1.jpg",
-      description : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
-      date : "Date: January 2020",
+      description : "Réaliser un site web dynamique en PHP (Framework utilisé Symfony) qui permet aux internautes de déposer  des annonces en ligne.",
+      date : "Date: Janvier 2020",
       categorie : "Illustration"
   },
   {
       id : "popup",
-      nom : "Baskets",
+      nom : "Baskets en ligne",
       info: "Partager votre baskets en ligne.",
       img : "photoprojet2.jpg",
-      description : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
-      date : "Date: January 2020",
+      description : "Réaliser un site web dynamique en PHP (Framework utilisé Symfony) qui permet de vendre des baskets en ligne.",
+      date : "Date: Mars 2020",
       categorie : "Illustration"
   }
 ];
