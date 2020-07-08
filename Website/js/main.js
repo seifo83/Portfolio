@@ -56,80 +56,80 @@ let galerie = [
   {
     id : "popupgalerie",
     nom : "Sacré Coeur Paris Autumn-2019",
-    img : "01-galerie.jpg",
+    img : "01-galerie.jpeg",
 },
 {
   id : "popupgalerie",
   nom : "Bir-Hakim Paris Été-2017",
-  img : "02-galerie.jpg",
+  img : "02-galerie.jpeg",
 
 },
 {
   id : "popupgalerie",
   nom : "Elche Alicante Été-2019",
-  img : "03-galerie.jpg",
+  img : "03-galerie.jpeg",
 
 },
 {
   id : "popupgalerie",
   nom : "Manhattan New York Été-2015",
-  img : "04-galerie.jpg",
+  img : "04-galerie.jpeg",
 },
 {
   id : "popupgalerie",
   nom : "Central park New York Été-2015",
-  img : "05-galerie.jpg",
+  img : "05-galerie.jpeg",
 
 },
 {
   id : "popupgalerie",
   nom : "Pont Brooklyn New York Été-2015",
-  img : "06-galerie.jpg",
+  img : "06-galerie.jpeg",
 },
 {
   id : "popupgalerie",
   nom : "San Guiseppe Napoli Été-2019",
-  img : "07-galerie.jpg",
+  img : "07-galerie.jpeg",
 },
 {
   id : "popupgalerie",
   nom : "Le Marais Paris Printemps-2016",
-  img : "08-galerie.jpg",
+  img : "08-galerie.jpeg",
 },
 {
   id : "popupgalerie",
   nom : "Cour Saint-André Paris Autumn-2015",
-  img : "09-galerie.jpg",
+  img : "09-galerie.jpeg",
 },
 {
   id : "popupgalerie",
   nom : "La seine Paris Printemps-2019",
-  img : "10-galerie.jpg",
+  img : "10-galerie.jpeg",
 },
 {
   id : "popupgalerie",
   nom : "Gardens of Augustus Capri Été-2019",
-  img : "11-galerie.jpg",
+  img : "11-galerie.jpeg",
 },
 {
   id : "popupgalerie",
   nom : "Les Grands Boulevards Paris Hiver-2019",
-  img : "12-galerie.jpg",
+  img : "12-galerie.jpeg",
 },
 {
   id : "popupgalerie",
   nom : "Centre Historico Málaga Été-2019",
-  img : "13-galerie.jpg",
+  img : "13-galerie.jpeg",
 },
 {
   id : "popupgalerie",
   nom : "Plage La Marsa Tunis Été-2019",
-  img : "14-galerie.jpg",
+  img : "14-galerie.jpeg",
 },
 {
   id : "popupgalerie",
   nom : "Médina Tunis Été-2019",
-  img : "15-galerie.jpg",
+  img : "15-galerie.jpeg",
 }
 
 ];
@@ -176,7 +176,7 @@ let projet = [
       id : "popup",
       nom : "Webannonce",
       info: "Partager votre annonce en ligne.",
-      img : "photoprojet1.jpg",
+      img : "photoprojet1.jpeg",
       description : "Réaliser un site web dynamique en PHP (Framework utilisé Symfony) qui permet aux internautes de déposer  des annonces en ligne.",
       date : "Date: Janvier 2020",
       categorie : "Illustration"
