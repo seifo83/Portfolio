@@ -174,7 +174,7 @@ document.querySelector(".popupgalerieGalerie").innerHTML = contenupopgalerie;
 let projet = [
   {
       id : "popup",
-      nom : "Webannonce",
+      nom : "Web annonce",
       info: "Partager votre annonce en ligne.",
       img : "photoprojet1.jpeg",
       description : "Réaliser un site web dynamique en PHP (Framework utilisé Symfony) qui permet aux internautes de déposer  des annonces en ligne.",
