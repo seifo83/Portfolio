@@ -149,19 +149,30 @@ main{
 }
 
 @media (max-width: 600px) {
-  .masthead h1 {
-    font-size: 4rem;
-    line-height: 4rem;
-  }
 
  .masthead img{
     width: 350px;
 
   }
 
-
-
 }
+
+@media (max-width: 372px) {
+
+  .masthead img{
+     width: 300px;
+ 
+   }
+
+   #photographie h1{
+     font-size: 35px;
+    margin: 0;
+   
+    margin-bottom: 20px;
+    padding: 0;
+  }
+ 
+ }
 
 /* @media (min-width: 960px) {
   .masthead {
