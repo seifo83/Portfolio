@@ -184,9 +184,9 @@ let projet = [
   {
       id : "popup",
       nom : "Baskets en ligne",
-      info: "Partager votre baskets en ligne.",
+      info: "Acheter des baskets en ligne.",
       img : "photoprojet2.jpg",
-      description : "Réaliser un site web dynamique en PHP (Framework utilisé Symfony) qui permet de vendre des baskets en ligne.",
+      description : "Réaliser un site web e-commerce en PHP (Framework utilisé Symfony) qui permet de vendre des baskets en ligne.",
       date : "Date: Mars 2020",
       categorie : "Illustration"
   }
