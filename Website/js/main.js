@@ -49,6 +49,7 @@
 //console.log("Bonjour");
 
 
+
 //popupgalerie galerie
 
 let galerie = [
@@ -56,50 +57,50 @@ let galerie = [
   {
     id : "popupgalerie",
     nom : "Sacré Coeur Paris Autumn-2019",
-    img : "01-galerie.jpeg",
+    img : "1-galerie.jpeg",
 },
 {
   id : "popupgalerie",
   nom : "Bir-Hakim Paris Été-2017",
-  img : "02-galerie.jpeg",
+  img : "2-galerie.jpeg",
 
 },
 {
   id : "popupgalerie",
   nom : "Elche Alicante Été-2019",
-  img : "03-galerie.jpeg",
+  img : "3-galerie.jpeg",
 
 },
 {
   id : "popupgalerie",
   nom : "Manhattan New York Été-2015",
-  img : "04-galerie.jpeg",
+  img : "4-galerie.jpeg",
 },
 {
   id : "popupgalerie",
   nom : "Central park New York Été-2015",
-  img : "05-galerie.jpeg",
+  img : "5-galerie.jpeg",
 
 },
 {
   id : "popupgalerie",
   nom : "Pont Brooklyn New York Été-2015",
-  img : "06-galerie.jpeg",
+  img : "6-galerie.jpeg",
 },
 {
   id : "popupgalerie",
   nom : "San Guiseppe Napoli Été-2019",
-  img : "07-galerie.jpeg",
+  img : "7-galerie.jpeg",
 },
 {
   id : "popupgalerie",
   nom : "Le Marais Paris Printemps-2016",
-  img : "08-galerie.jpeg",
+  img : "8-galerie.jpeg",
 },
 {
   id : "popupgalerie",
   nom : "Cour Saint-André Paris Autumn-2015",
-  img : "09-galerie.jpeg",
+  img : "9-galerie.jpeg",
 },
 {
   id : "popupgalerie",
@@ -163,9 +164,34 @@ for (let i = 1; i < galerie.length + 1 ; i++) {
   contenupopgalerie += "</div>";
 }
 
-console.log(contenupopgalerie);
+//console.log(contenupopgalerie);
 
 document.querySelector(".popupgalerieGalerie").innerHTML = contenupopgalerie;
+
+
+//l'affichage photo galerie
+
+let photo ="";
+
+
+
+for (let i = 1; i < 16  ; i++) {
+
+    photo += "<div class=\"col-lg-4 col-sm-6 mb-4\">";
+    photo += "<div class=\"portfolio-item\">";
+    photo += "<a class=\"portfolio-link\" data-toggle=\"modal\" href=\"#popupgalerie"+ i +"\">";
+    photo += "<div class=\"portfolio-hover\">";
+    photo += "<div class=\"portfolio-hover-content\"><i class=\"fa fa-search-plus fa-3x\"></i></div>";
+    photo += "</div>";
+    photo += "<img class=\"img-fluid\" src=\"assets/img/portfolio/" + i + "-galerie.jpeg\" alt=\"\"/>";
+    photo += "</a>";
+    photo += "</div>";
+    photo += "</div>";
+}
+
+console.log(photo);
+
+// document.querySelector(".photoGalerie").innerHTML = photo;
 
 
 
@@ -228,7 +254,7 @@ for (let i = 1; i < projet.length + 1 ; i++) {
   contenuPopup += "</div>";
 }
 
-console.log(contenuPopup);
+//console.log(contenuPopup);
 
 document.querySelector(".popupProjet").innerHTML = contenuPopup;
 
