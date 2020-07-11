@@ -148,24 +148,16 @@ body{
     width: 350px;
 
   }
-
-
-
-}
-
-@media (max-width: 600px) {
-
- .masthead img{
-    width: 350px;
-
-  }
-
   .masthead a {
-    margin-top: -70px;
-   padding-left: 20px;
+    margin-top: -80px;
+    padding-left: 30px;
+   /* padding-left: 20px; */
   }
 
+
+
 }
+
 
 @media (max-width: 372px) {
 
@@ -183,8 +175,8 @@ body{
   }
 
   .masthead a {
-    margin-top: -50px;
-    padding-left: 10px;
+    margin-top: -70px;
+    padding-left: 35px;
    }
  
  }
