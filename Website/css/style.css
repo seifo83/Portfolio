@@ -131,11 +131,11 @@ body{
   font-size: 1rem;
 }
 
-.masthead a{
+#reseau a{
   margin-top: -150px;
   padding: 30px;
   color: white;
-}
+} 
 
 
 @media (max-width: 600px) {
@@ -148,13 +148,14 @@ body{
     width: 350px;
 
   }
-  .masthead a {
-    margin-top: -80px;
-    padding-left: 30px;
-   /* padding-left: 20px; */
+
+  #reseau a{
+    margin-top: -100px;
   }
 
-
+  #reseau a i{
+    padding-left: 20px;
+  }
 
 }
 
@@ -163,22 +164,20 @@ body{
 
   .masthead img{
      width: 300px;
- 
    }
 
    #photographie h1{
-     font-size: 35px;
+    font-size: 35px;
     margin: 0;
-   
     margin-bottom: 20px;
     padding: 0;
   }
 
-  .masthead a {
-    margin-top: -0px;
-    padding-left: 35px;
-   }
- 
+  #reseau a{
+    margin-top: -80px;
+    padding-left: 30px;
+
+  }
  }
 
 /* @media (min-width: 960px) {
@@ -477,7 +476,7 @@ a:hover span, a:focus span{
 
 }
 
-#projet{
+#projet1{
   padding: 3rem;
 }
 
