@@ -27,7 +27,7 @@ body{
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: white;
   outline: none;
   background-color: transparent;
 }
@@ -544,7 +544,7 @@ h2.section-heading {
   margin: 0;
   margin-left: -15px;
   margin-bottom: 10px;
-  padding: auto;
+  padding: 30px
 }
 
 #portfolio .portfolio-item {
