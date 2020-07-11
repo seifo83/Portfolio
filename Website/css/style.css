@@ -132,7 +132,8 @@ body{
 }
 
 .masthead a{
-  margin-top: 90px;
+  margin-top: -110px;
+  padding: 10px;
   color: white;
 }
 
@@ -159,6 +160,11 @@ body{
 
   }
 
+  .masthead a {
+    margin-top: -70px;
+   padding-left: 20px;
+  }
+
 }
 
 @media (max-width: 372px) {
@@ -175,6 +181,11 @@ body{
     margin-bottom: 20px;
     padding: 0;
   }
+
+  .masthead a {
+    margin-top: -50px;
+    padding-left: 10px;
+   }
  
  }
 
