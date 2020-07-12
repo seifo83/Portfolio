@@ -173,8 +173,6 @@ document.querySelector(".popupgalerieGalerie").innerHTML = contenupopgalerie;
 
 let photo ="";
 
-
-
 for (let i = 1; i < 16  ; i++) {
 
     photo += "<div class=\"col-lg-4 col-sm-6 mb-4\">";
