@@ -6,22 +6,23 @@ body{
 
  #mainNav {
   min-height: 56px;
-  background-color: #fff;
 }
 
 #mainNav .navbar-toggler {
+  margin-right: 15px;
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: white;
+  border: 1px solid white;
 }
 
 #mainNav .navbar-toggler:focus {
+  color: white;
   outline: none;
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
+  color: white;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -42,7 +43,6 @@ body{
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -61,13 +61,13 @@ body{
     color:rgba(255, 255, 255, 0.5);
   }
   #mainNav.navbar-shrink {
-    background-color: rgba(243, 240, 240, 0.979);
+    background-color:rgba(211, 209, 209, 0.918);
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
+    color: white;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #161616;
+    color: white;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -118,7 +118,7 @@ body{
 .masthead img{
   width: 550px;
   height: auto;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .masthead nav{
@@ -155,6 +155,11 @@ body{
 
   #reseau a i{
     padding-left: 20px;
+  }
+  #mainNav {
+
+    background-color: transparent;
+  
   }
 
 }
