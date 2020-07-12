@@ -539,6 +539,7 @@ h2.section-heading {
 
 #photographie{
   padding-top: 4rem;
+  background-color: #fff;
 }
 #photographie h1{
   margin: 0;
@@ -579,7 +580,7 @@ h2.section-heading {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #fff;
+ background-color: #fff;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
